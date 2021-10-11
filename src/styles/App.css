@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --dark-pink: #ec4c8a;
+  --light-pink: #fc5193;
+}
+
+*,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: var(--dark-pink);
+}
