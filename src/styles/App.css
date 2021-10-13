@@ -11,9 +11,26 @@ p {
   padding: 0;
 }
 
-body,
+body {
+  background-color: var(--dark-pink);
+}
+
 .card {
+  width: 48.7%;
+  margin: 2px;
+}
+
+.card,
+.main-card {
   background-color: var(--light-pink);
+}
+
+.h5 {
+  font-weight: 700;
+}
+
+.filter {
+  background-color: var(--dark-pink);
 }
 
 .dropdown,
@@ -44,4 +61,13 @@ a:hover {
 .navbar {
   padding: 10px;
   background-color: var(--dark-pink);
+}
+
+.map {
+  opacity: 0.3;
+}
+
+.card-body {
+  padding: 0;
+  flex: none;
 }
