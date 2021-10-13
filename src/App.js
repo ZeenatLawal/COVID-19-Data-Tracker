@@ -1,17 +1,26 @@
 import './styles/App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Details from './components/Details';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import Home from './pages/Home';
+import Details from './pages/Details';
+import { loadContinent } from './redux/countries/countries';
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadContinent());
+  }, [dispatch]);
+
   return (
-    <div className="App">
+    <div className="App text-light">
       <Router>
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/details">
+          <Route path="/details/:name">
             <Details />
           </Route>
         </Switch>
