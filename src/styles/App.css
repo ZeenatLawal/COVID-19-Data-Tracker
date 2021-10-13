@@ -71,3 +71,17 @@ a:hover {
   padding: 0;
   flex: none;
 }
+
+li:nth-child(odd) {
+  background-color: var(--light-pink);
+}
+
+li:nth-child(even) {
+  background-color: var(--dark-pink);
+}
+
+.list-group-item {
+  color: white;
+  border: none;
+  padding: 20px 10px;
+}
