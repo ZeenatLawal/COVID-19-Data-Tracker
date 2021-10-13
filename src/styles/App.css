@@ -11,6 +11,15 @@ p {
   padding: 0;
 }
 
+body,
+.card {
+  background-color: var(--light-pink);
+}
+
+a {
+  color: white;
+}
+
 .App {
   font-family: 'Lato', sans-serif;
 }
