@@ -23,8 +23,8 @@ body,
   outline: none;
 }
 
-.show > .btn-primary.dropdown-toggle, 
-.show > .btn-primary.dropdown-toggle:focus, 
+.show > .btn-primary.dropdown-toggle,
+.show > .btn-primary.dropdown-toggle:focus,
 .btn-primary:focus {
   background-color: var(--dark-pink);
   box-shadow: 0 0 0 0 var(--dark-pink);
