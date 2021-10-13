@@ -16,8 +16,10 @@ body,
   background-color: var(--light-pink);
 }
 
-a {
+a,
+a:hover {
   color: white;
+  text-decoration: none;
 }
 
 .App {
