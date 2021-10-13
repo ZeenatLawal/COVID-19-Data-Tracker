@@ -8,7 +8,7 @@ const CountryCard = ({ country }) => {
   const page = `/details/${country['All'].country}`;
 
   return (
-    <Card key={country['All'].country} className="card">
+    <Card key={country['All'].country} className="card w-50 border-0">
       <Card.Link href={page}>
         <FiArrowRightCircle />
         <Card.Title>{country['All'].country}</Card.Title>

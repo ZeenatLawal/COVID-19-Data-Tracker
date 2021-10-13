@@ -6,7 +6,7 @@ const TotalCard = (prop) => {
   const { name, total } = prop;
 
   return (
-    <Card>
+    <Card className="border-0">
       <Card.Title>{name}</Card.Title>
       <Card.Body>
         <Card.Text className="d-flex flex-column">
