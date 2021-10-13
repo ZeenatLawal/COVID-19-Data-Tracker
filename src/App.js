@@ -2,8 +2,8 @@ import './styles/App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import Home from './components/Home';
-import Details from './components/Details';
+import Home from './pages/Home';
+import Details from './pages/Details';
 import { loadContinent } from './redux/countries/countries';
 
 function App() {

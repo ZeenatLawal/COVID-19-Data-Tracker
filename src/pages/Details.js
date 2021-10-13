@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { FaLessThan } from 'react-icons/fa';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Navbar from './Navbar';
-import TotalCard from './TotalCard';
+import Navbar from '../components/Navbar';
+import TotalCard from '../components/TotalCard';
 import { loadCountry } from '../redux/countries/countries';
 
 const Details = () => {
@@ -13,13 +13,13 @@ const Details = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadCountry(name));
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
       <Navbar title="Country cases" left={<FaLessThan />} />
       <TotalCard name={country.country} total={country.confirmed} />
-      <ListGroup as="ul">
+      <ListGroup as="ul" className="p-2">
         <ListGroup.Item as="li" className="d-flex justify-content-between align-items-center">
           <h3>Recovered</h3>
           <p>{country.recovered}</p>
