@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component Snapshot test 1`] = `
+<div
+  className="border-0 card"
+>
+  <div
+    className="card-title h5"
+  >
+    AFRICA
+  </div>
+  <div
+    className="card-body"
+  >
+    <p
+      className="d-flex flex-column card-text"
+    >
+      <span>
+        200987
+      </span>
+      Confirmed Cases
+    </p>
+  </div>
+</div>
+`;

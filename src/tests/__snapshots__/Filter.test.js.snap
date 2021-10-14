@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component Snapshot test 1`] = `
+<div
+  className="dropdown"
+>
+  <button
+    aria-expanded={false}
+    className="dropdown dropdown-toggle btn btn-primary"
+    disabled={false}
+    id="react-aria9646169646-1"
+    onClick={[Function]}
+    type="button"
+  >
+    Filter
+  </button>
+</div>
+`;

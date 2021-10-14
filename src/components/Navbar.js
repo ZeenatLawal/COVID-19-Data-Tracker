@@ -1,11 +1,11 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import PropTypes from 'prop-types';
 import { MdMic, MdSettings } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = (props) => {
   const { title, left } = props;
-  if (title === 'Country cases') {
+  if (title !== 'All Africa cases') {
     return (
       <div className="d-flex justify-content-between align-items-center navbar">
         <NavLink to="/" exact>{left}</NavLink>
@@ -27,14 +27,6 @@ const Navbar = (props) => {
       </div>
     </div>
   );
-};
-
-Navbar.propTypes = {
-  title: PropTypes.string.isRequired,
-  left: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.object,
-  ]).isRequired,
 };
 
 export default Navbar;
