@@ -1,5 +1,3 @@
-/* eslint-disable dot-notation */
-/* eslint-disable max-len */
 import { getContinent, getCountry } from './Api';
 
 const LOAD_CONTINENT = 'covid-19-data-tracker/details/LOAD_CONTINENT';
@@ -35,13 +33,15 @@ export const loadCountry = (name) => async (dispatch) => {
 const filterNumbers = (countries, value) => {
   switch (value) {
     case '99999':
-      return countries.filter((country) => country['All'].confirmed < 100000);
+      return countries.filter((country) => country.All.confirmed < 100000);
     case '100000':
-      return countries.filter((country) => country['All'].confirmed >= 100000 && country['All'].confirmed < 200000);
+      return countries.filter((country) => country.All.confirmed >= 100000
+        && country.All.confirmed < 200000);
     case '200000':
-      return countries.filter((country) => country['All'].confirmed >= 200000 && country['All'].confirmed < 300000);
+      return countries.filter((country) => country.All.confirmed >= 200000
+        && country.All.confirmed < 300000);
     case '300000':
-      return countries.filter((country) => country['All'].confirmed >= 300000);
+      return countries.filter((country) => country.All.confirmed >= 300000);
     default:
       return countries;
   }
