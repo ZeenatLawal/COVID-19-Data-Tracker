@@ -2,7 +2,7 @@
   "name": "covid-19-data-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zeenatlawal.github.io/COVID-19-Data-Tracker/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10",
