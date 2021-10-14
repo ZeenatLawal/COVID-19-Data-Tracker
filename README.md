@@ -51,3 +51,5 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Learning partners, Standup and morning session team
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) (Project Design from [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- [M-Media-Group/Covid-19-API](https://github.com/M-Media-Group/Covid-19-API)
