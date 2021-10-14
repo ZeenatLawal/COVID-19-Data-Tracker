@@ -15,7 +15,7 @@
 
 ## Live demo
 
-[COVID-19-Data-Tracker]()
+[COVID-19-Data-Tracker](https://covid-19-data-tracker-zee.netlify.app/)
 
 ## Getting Started
 
