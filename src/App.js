@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App text-light">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/">
             <Home />

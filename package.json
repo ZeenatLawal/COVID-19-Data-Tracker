@@ -1,12 +1,13 @@
 {
   "name": "covid-19-data-tracker",
   "version": "0.1.0",
-  "homepage": ".",
   "private": true,
+  "homepage": "https://zeenatlawal.github.io/COVID-19-Data-Tracker/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.1",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
@@ -25,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
