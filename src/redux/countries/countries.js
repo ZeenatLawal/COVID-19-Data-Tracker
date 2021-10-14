@@ -70,7 +70,7 @@ const countriesReducer = (state = initialState, action) => {
         current_country: action.payload,
       };
     case FILTER_DATA:
-      return action.payload;
+      return { continent: action.payload };
     default:
       return state;
   }
