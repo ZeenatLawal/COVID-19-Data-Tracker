@@ -14,7 +14,7 @@ const Details = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadCountry(name));
-  }, [dispatch]);
+  }, [name]);
 
   return (
     <div>
