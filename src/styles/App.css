@@ -85,3 +85,8 @@ li:nth-child(even) {
   border: none;
   padding: 20px 10px;
 }
+
+.country-card:nth-child(4n + 2),
+.country-card:nth-child(4n + 3) {
+  background-color: var(--dark-pink);
+}
