@@ -1,4 +1,3 @@
-/* eslint-disable dot-notation */
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Navbar from '../components/Navbar';
@@ -15,7 +14,7 @@ const Home = () => {
   let total = 0;
   if (countries) {
     countries.forEach((element) => {
-      total += element['All'].confirmed;
+      total += element.All.confirmed;
     });
   }
 
@@ -37,7 +36,7 @@ const Home = () => {
         </div>
         <div className="d-flex flex-wrap">
           {countries && countries.map((country) => (
-            <CountryCard key={country['All'].country} country={country} />
+            <CountryCard key={country.All.country} country={country} />
           ))}
         </div>
       </div>
