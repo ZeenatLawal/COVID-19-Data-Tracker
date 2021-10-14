@@ -6,6 +6,7 @@ import CountryCard from '../components/Card';
 import TotalCard from '../components/TotalCard';
 import { filterCountry } from '../redux/countries/countries';
 import Filter from '../components/Filter';
+import africa from '../assets/africa.svg';
 
 const Home = () => {
   const countries = useSelector((state) => state.countriesReducer);
@@ -25,11 +26,13 @@ const Home = () => {
   return (
     <div>
       <Navbar title="All Africa cases" left="2021" />
-      <div className="p-2">
-        <div>
-          <TotalCard name="Africa Total confirmed:" total={total} />
+      <div>
+        <div className="d-flex align-items-center justify-content-evenly px-2 py-3 main-card">
+          <img src={africa} alt="map of africa" className="map w-25 h-25" />
+          <TotalCard name="AFRICA" total={total} className="fs-2" />
         </div>
-        <div>
+        <div className="d-flex align-items-center justify-content-around filter">
+          <p>STATS BY COUNTRY</p>
           <Filter handleFilter={handleFilter} />
         </div>
         <div className="d-flex flex-wrap">
