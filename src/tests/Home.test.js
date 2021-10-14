@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-expressions */
 import renderer from 'react-test-renderer';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Home from '../pages/Home';
@@ -64,8 +63,8 @@ describe('Home page', () => {
   test('Fire filter event', () => {
     render(<Home />);
     fireEvent.select(screen.getByRole('button'), {
-      target: { eventKey: '300000' },
+      target: { eventKey: '99999' },
     });
-    !expect(screen.getByText(/Morocco/)).toBeInTheDocument();
+    expect(screen.getByText(/Morocco/)).toBeInTheDocument();
   });
 });
