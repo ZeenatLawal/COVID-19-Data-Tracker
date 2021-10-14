@@ -19,7 +19,7 @@ const CountryCard = ({ country }) => {
           <Card.Title>{country['All'].country}</Card.Title>
           <Card.Body>
             <Card.Text>
-              {country['All'].confirmed}
+              {country['All'].confirmed.toLocaleString()}
             </Card.Text>
           </Card.Body>
         </div>

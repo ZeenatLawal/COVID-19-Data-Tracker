@@ -31,15 +31,15 @@ const Details = () => {
           <ListGroup as="ul" className="text-light">
             <ListGroup.Item as="li" className="d-flex justify-content-between align-items-center">
               <h4>Recovered</h4>
-              <p>{country.recovered}</p>
+              <p>{country.recovered.toLocaleString()}</p>
             </ListGroup.Item>
             <ListGroup.Item as="li" className="d-flex justify-content-between align-items-center">
               <h3>Deaths</h3>
-              <p>{country.deaths}</p>
+              <p>{country.deaths.toLocaleString()}</p>
             </ListGroup.Item>
             <ListGroup.Item as="li" className="d-flex justify-content-between align-items-center">
               <h3>Population</h3>
-              <p>{country.population}</p>
+              <p>{country.population.toLocaleString()}</p>
             </ListGroup.Item>
             <ListGroup.Item as="li" className="d-flex justify-content-between align-items-center">
               <h3>Location</h3>
