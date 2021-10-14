@@ -88,7 +88,7 @@ exports[`App component Snapshot test 1`] = `
               className="d-flex flex-column card-text"
             >
               <span>
-                0
+                8253716
               </span>
               Confirmed Cases
             </p>
@@ -108,7 +108,7 @@ exports[`App component Snapshot test 1`] = `
             aria-expanded={false}
             className="dropdown dropdown-toggle btn btn-primary"
             disabled={false}
-            id="react-aria309104041-1"
+            id="react-aria3692182655-1"
             onClick={[Function]}
             type="button"
           >

@@ -4,7 +4,7 @@ import Filter from '../components/Filter';
 describe('Filter component', () => {
   test('Snapshot test', () => {
     const filter = renderer.create(
-      <Filter handleSelect={() => {}} />,
+      <Filter handleFilter={() => {}} />,
     )
       .toJSON();
     expect(filter).toMatchSnapshot();
