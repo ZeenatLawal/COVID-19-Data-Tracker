@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Snapshot test 1`] = `
+<div
+  className="App text-light"
+>
+  <div>
+    <div
+      className="d-flex justify-content-between align-items-center navbar"
+    >
+      <p>
+        2021
+      </p>
+      <p>
+        All Africa cases
+      </p>
+      <div
+        className="fs-4"
+      >
+        <svg
+          className="me-3"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"
+          />
+        </svg>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.488.488 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <div
+        className="d-flex align-items-center justify-content-evenly px-2 py-3 main-card"
+      >
+        <img
+          alt="map of africa"
+          className="map w-25 h-25"
+          src="africa.svg"
+        />
+        <div
+          className="border-0 card"
+        >
+          <div
+            className="card-title h5"
+          >
+            AFRICA
+          </div>
+          <div
+            className="card-body"
+          >
+            <p
+              className="d-flex flex-column card-text"
+            >
+              <span>
+                0
+              </span>
+              Confirmed Cases
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-flex align-items-center justify-content-around filter"
+      >
+        <p>
+          STATS BY COUNTRY
+        </p>
+        <div
+          className="dropdown"
+        >
+          <button
+            aria-expanded={false}
+            className="dropdown dropdown-toggle btn btn-primary"
+            disabled={false}
+            id="react-aria309104041-1"
+            onClick={[Function]}
+            type="button"
+          >
+            Filter
+          </button>
+        </div>
+      </div>
+      <div
+        className="d-flex flex-wrap"
+      />
+    </div>
+  </div>
+</div>
+`;
