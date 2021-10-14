@@ -9,7 +9,7 @@ import Filter from '../components/Filter';
 import africa from '../assets/africa.svg';
 
 const Home = () => {
-  const countries = useSelector((state) => state.countriesReducer);
+  const countries = useSelector((state) => state.countriesReducer.continent);
   const dispatch = useDispatch();
 
   let total = 0;
@@ -36,7 +36,7 @@ const Home = () => {
           <Filter handleFilter={handleFilter} />
         </div>
         <div className="d-flex flex-wrap">
-          {countries.map((country) => (
+          {countries && countries.map((country) => (
             <CountryCard key={country['All'].country} country={country} />
           ))}
         </div>
