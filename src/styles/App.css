@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --dark-pink: #ec4c8a;
+  --light-pink: #fc5193;
+}
+
+*,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--dark-pink);
+}
+
+.card {
+  width: 48.7%;
+  margin: 2px;
+}
+
+.card,
+.main-card {
+  background-color: var(--light-pink);
+}
+
+.h5 {
+  font-weight: 700;
+}
+
+.filter {
+  background-color: var(--dark-pink);
+}
+
+.dropdown,
+.dropdown:hover {
+  background-color: var(--dark-pink);
+  border: none;
+  outline: none;
+}
+
+.show > .btn-primary.dropdown-toggle,
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-primary:focus {
+  background-color: var(--dark-pink);
+  box-shadow: 0 0 0 0 var(--dark-pink);
+  border: none;
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.App {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: var(--dark-pink);
+}
+
+.map {
+  opacity: 0.3;
+}
+
+.card-body {
+  padding: 0;
+  flex: none;
+}
+
+li:nth-child(odd) {
+  background-color: var(--light-pink);
+}
+
+li:nth-child(even) {
+  background-color: var(--dark-pink);
+}
+
+.list-group-item {
+  color: white;
+  border: none;
+  padding: 20px 10px;
+}
+
+.country-card:nth-child(4n + 2),
+.country-card:nth-child(4n + 3) {
+  background-color: var(--dark-pink);
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component Snapshot test 1`] = `
+<div
+  className="card border-0 p-2 country-card card"
+>
+  <a
+    className="card-link"
+    href="/details/Nigeria"
+  >
+    <div
+      className="d-flex justify-content-between ps-3"
+    >
+      <img
+        alt="covid virus"
+        className="map w-50 h-50"
+        src="covid.svg"
+      />
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          r="10"
+        />
+        <polyline
+          points="12 16 16 12 12 8"
+        />
+        <line
+          x1="8"
+          x2="16"
+          y1="12"
+          y2="12"
+        />
+      </svg>
+    </div>
+    <div
+      className="text-end"
+    >
+      <div
+        className="card-title h5"
+      >
+        Nigeria
+      </div>
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          1264
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
+`;
